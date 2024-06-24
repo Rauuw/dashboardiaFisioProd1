@@ -7,7 +7,7 @@ import io
 app = Flask(__name__)
 
 # Configura la base de datos
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:1234@localhost:5433/fisio'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:JMdIVQBtXWQlHweRScAftFmuFuqXBqVo@monorail.proxy.rlwy.net:18490/fisio'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)
